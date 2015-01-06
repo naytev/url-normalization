@@ -1,10 +1,11 @@
-*.class
-.project
-.DS_Store
-.classpath
-.settings/
+.*
+!.gitignore
+!.travis.yml
 target/
-# Package Files #
-*.jar
-*.war
-*.ear
+project/sonatype.sbt
+project/project
+project/target
+tmp
+
+/logs/
+/projectFilesBackup*
